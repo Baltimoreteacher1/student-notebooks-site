@@ -7,11 +7,18 @@ const PLACEHOLDER_MARKER = "<!-- NOTEBOOK_STATUS: placeholder -->";
 const PUBLISHED_MARKER = "NOTEBOOK_STATUS: published";
 const DATE_MARKER = "NOTEBOOK_DATE:";
 
-const usage = "Usage: npm run publish:notebook -- <input-file> <YYYY-MM-DD>";
+const usage = [
+  "Usage:",
+  "  npm run publish:notebook -- <input-file> <YYYY-MM-DD>",
+  "  npm run publish:notebook -- <YYYY-MM-DD>"
+].join("\n");
 
-const [, , inputArg, dateArg] = process.argv;
+const [, , firstArg, secondArg] = process.argv;
+const usingImplicitInput = Boolean(firstArg && !secondArg);
+const inputArg = usingImplicitInput ? null : firstArg;
+const dateArg = usingImplicitInput ? firstArg : secondArg;
 
-if (!inputArg || !dateArg) {
+if (!dateArg) {
   fail(`${usage}\nMissing required arguments.`);
 }
 
@@ -23,7 +30,10 @@ const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".."
 const docsDir = path.join(repoRoot, "docs");
 const latestPath = path.join(docsDir, "latest", "index.html");
 const archiveRoot = path.join(docsDir, "archive");
-const inputPath = path.resolve(repoRoot, inputArg);
+const incomingDir = path.join(repoRoot, "incoming");
+const inputPath = inputArg
+  ? path.resolve(repoRoot, inputArg)
+  : await findNewestIncomingHtml(incomingDir);
 
 await ensureDirectory(path.dirname(latestPath));
 await ensureDirectory(archiveRoot);
@@ -56,7 +66,7 @@ await fs.writeFile(path.join(docsDir, "index.html"), homepage, "utf8");
 
 process.stdout.write(
   [
-    `Published notebook: ${inputArg}`,
+    `Published notebook: ${path.relative(repoRoot, inputPath)}`,
     `Latest page: docs/latest/index.html`,
     `Homepage rebuilt with ${archiveDates.length + 1} dated link(s).`
   ].join("\n")
@@ -112,6 +122,34 @@ async function readIfExists(targetPath) {
 
     throw error;
   }
+}
+
+async function findNewestIncomingHtml(directoryPath) {
+  const entries = await fs.readdir(directoryPath, { withFileTypes: true }).catch((error) => {
+    if (error && typeof error === "object" && "code" in error && error.code === "ENOENT") {
+      fail(`Incoming directory does not exist: ${directoryPath}`);
+    }
+
+    throw error;
+  });
+
+  const htmlFiles = await Promise.all(entries
+    .filter((entry) => entry.isFile() && entry.name.toLowerCase().endsWith(".html"))
+    .map(async (entry) => {
+      const fullPath = path.join(directoryPath, entry.name);
+      const stat = await fs.stat(fullPath);
+      return {
+        fullPath,
+        modifiedMs: stat.mtimeMs
+      };
+    }));
+
+  if (htmlFiles.length === 0) {
+    fail(`No HTML files were found in ${directoryPath}`);
+  }
+
+  htmlFiles.sort((left, right) => right.modifiedMs - left.modifiedMs || left.fullPath.localeCompare(right.fullPath));
+  return htmlFiles[0].fullPath;
 }
 
 function isRealNotebook(html) {
