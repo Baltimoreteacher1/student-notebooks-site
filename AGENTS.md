@@ -1,10 +1,18 @@
 # AGENTS.md
 
 ## Repository purpose
-This repository is the permanent GitHub Pages site for publishing daily HTML student notebooks and interactive lesson experiences from single-file HTML outputs.
+This repository is the permanent GitHub Pages site and lesson-processing workspace for daily student notebook slide decks and HTML lesson experiences.
+
+## Lesson source workflow
+- When asked to process a lesson source, use the newest slide deck in `/slides-inbox/` unless the user specifies a different file.
+- Create the notebook slide output in `/notebook-output/`.
+- Create the generated HTML lesson in `/html-incoming/`.
+- Keep the notebook and HTML outputs aligned to the same source deck.
+- Use updated styles and polish, but do not drift from the source lesson.
+- After generating the HTML lesson, publish it to the site and update the open pull request.
 
 ## Publish workflow
-- When asked to publish a notebook, use the newest HTML file in `/incoming/` unless the user specifies a different file.
+- When asked to publish a notebook or HTML lesson, use the newest HTML file in `/html-incoming/` first, then fall back to `/incoming/` only if needed, unless the user specifies a different file.
 - Before replacing `/docs/latest/index.html`, archive the current latest page to `/docs/archive/YYYY-MM-DD/index.html`, but only if `/docs/latest/index.html` is a real notebook and not the placeholder.
 - Then copy the new notebook to `/docs/latest/index.html`.
 - Update `/docs/index.html` so the latest link works and the archive list includes the new date.
@@ -16,6 +24,7 @@ This repository is the permanent GitHub Pages site for publishing daily HTML stu
 - When building a new lesson experience, use the Math Mission Interactive Builder rules below.
 - Treat uploaded lesson slides as the source of truth.
 - Produce premium single-file HTML lesson experiences by default unless the user explicitly requests a different format.
+- Produce a matching notebook slide deck when the request is to process a lesson source through the repo workflow.
 
 ## Math Mission Interactive Builder
 
