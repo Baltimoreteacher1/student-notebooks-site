@@ -19,6 +19,12 @@ This repository powers a GitHub Pages site for daily HTML student notebooks and 
 2. Click `Process Lesson Source.command`, or run the processing script from Terminal. The `.command` launcher uses today’s date by default unless you pass a date argument.
 3. The workflow creates a notebook slide deck in `/notebook-output/`, creates an HTML lesson in `/html-incoming/`, publishes that HTML lesson to `/docs/latest/`, archives the prior live lesson if needed, and updates the open PR.
 
+If the macOS launcher does not open the first time after pulling the repo, run this one-time fix:
+
+```bash
+chmod +x "Process Lesson Source.command"
+```
+
 Shortest daily command:
 
 ```bash
