@@ -4,7 +4,7 @@
 This repository is the permanent GitHub Pages site for publishing daily HTML student notebooks and interactive lesson experiences from single-file HTML outputs.
 
 ## Publish workflow
-- When asked to publish a notebook, use the HTML file in `/incoming/` unless the user specifies a different file.
+- When asked to publish a notebook, use the newest HTML file in `/incoming/` unless the user specifies a different file.
 - Before replacing `/docs/latest/index.html`, archive the current latest page to `/docs/archive/YYYY-MM-DD/index.html`, but only if `/docs/latest/index.html` is a real notebook and not the placeholder.
 - Then copy the new notebook to `/docs/latest/index.html`.
 - Update `/docs/index.html` so the latest link works and the archive list includes the new date.
