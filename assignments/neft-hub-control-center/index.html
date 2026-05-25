@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neft Hub Control Center</title>
+  <style>
+    :root {
+      --navy: #123047;
+      --blue: #2563eb;
+      --teal: #0f766e;
+      --cream: #fff7ed;
+      --gray: #f8fafc;
+      --text: #1f2937;
+      --muted: #64748b;
+      --border: #d0d7de;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #eff6ff 0%, #f8fafc 42%, #ffffff 100%);
+      line-height: 1.5;
+    }
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 36px 20px;
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; font-size: clamp(32px, 5vw, 52px); }
+    h2 { margin-top: 34px; color: var(--navy); font-size: 26px; }
+    .subtitle { margin: 0; color: #cbd5e1; font-size: 18px; max-width: 760px; }
+    main { padding: 24px 20px 48px; }
+    .top-actions, .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .top-actions { margin-top: 24px; }
+    a.button {
+      display: block;
+      text-decoration: none;
+      color: white;
+      background: var(--blue);
+      padding: 14px 16px;
+      border-radius: 14px;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,.2);
+    }
+    a.button.secondary { background: var(--teal); }
+    a.button.gray { background: #475569; }
+    .notice {
+      background: var(--cream);
+      border: 1px solid #fed7aa;
+      border-left: 6px solid #f97316;
+      border-radius: 16px;
+      padding: 16px 18px;
+      margin: 0 0 22px;
+    }
+    .search-box, .card, .simple-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, .06);
+    }
+    .search-box { margin: 0 0 22px; }
+    .search-box input {
+      width: 100%;
+      font-size: 18px;
+      padding: 14px 16px;
+      border: 2px solid var(--border);
+      border-radius: 14px;
+    }
+    .hint, .card p { color: var(--muted); }
+    .card h3 { margin: 0 0 8px; font-size: 20px; color: var(--navy); }
+    .card p { margin: 0 0 14px; }
+    .links { display: flex; flex-direction: column; gap: 8px; }
+    .links a {
+      text-decoration: none;
+      border: 1px solid var(--border);
+      color: var(--blue);
+      background: var(--gray);
+      padding: 10px 12px;
+      border-radius: 12px;
+      font-weight: 700;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(15, 23, 42, .05);
+    }
+    th, td { border: 1px solid var(--border); padding: 12px; text-align: left; vertical-align: top; }
+    th { background: #e0f2fe; color: var(--navy); }
+    code { background: #f1f5f9; padding: 2px 6px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Neft Hub</h1>
+      <p class="subtitle">One simple home base for classroom apps, GitHub repos, notebook/lesson-plan engines, Cloudflare deployment, and family learning tools.</p>
+      <div class="top-actions">
+        <a class="button" href="/">Open App Library</a>
+        <a class="button secondary" href="/apps/">View All App Folders</a>
+        <a class="button gray" href="https://github.com/Baltimoreteacher1" target="_blank" rel="noopener">Open GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="notice"><strong>Simple rule:</strong> Use Neft Hub first. Everything important should live here or link from here. Avoid making a new Cloudflare project unless it truly needs to be separate.</div>
+
+      <section class="search-box">
+        <label for="filter"><strong>Find something:</strong></label>
+        <input id="filter" type="search" placeholder="Try: notebook, lesson, Cloudflare, GitHub, 6.EE.C.9, Hebrew, Noam, area, volume" />
+        <p class="hint">This filters the cards below. The main app library search is on the Neft Hub homepage.</p>
+      </section>
+
+      <section class="grid" id="cards">
+        <article class="card" data-tags="apps library cloudflare launch student activities">
+          <h3>Student App Library</h3>
+          <p>Launch the apps students or family members actually use.</p>
+          <div class="links">
+            <a href="/">Neft Hub Home</a>
+            <a href="/apps/">All App Folders</a>
+            <a href="/apps/noam-hebrew/">Noam Hebrew Practice</a>
+            <a href="/apps/grade-6-math-units/">Grade 6 Math Units Hub</a>
+          </div>
+        </article>
+
+        <article class="card" data-tags="github repos code dashboard navigation cleanup">
+          <h3>GitHub Navigation</h3>
+          <p>Find repos, engines, code projects, and cleanup lists without digging.</p>
+          <div class="links">
+            <a href="https://github.com/Baltimoreteacher1/eduwonderlab/blob/main/GITHUB_NAVIGATION.md" target="_blank" rel="noopener">Repo Navigation Map</a>
+            <a href="https://github.com/Baltimoreteacher1/eduwonderlab/blob/main/GITHUB_ONLINE_SETUP.md" target="_blank" rel="noopener">GitHub Online Setup Guide</a>
+            <a href="https://github.com/Baltimoreteacher1/eduwonderlab/issues/1" target="_blank" rel="noopener">Cleanup Checklist</a>
+            <a href="https://github.com/Baltimoreteacher1?tab=repositories" target="_blank" rel="noopener">All Repositories</a>
+          </div>
+        </article>
+
+        <article class="card" data-tags="notebook engine student notebook claude chatgpt">
+          <h3>Notebook Engines</h3>
+          <p>Main repos for student notebook generation and editing.</p>
+          <div class="links">
+            <a href="https://github.com/Baltimoreteacher1/ClaudeNotebookEngine" target="_blank" rel="noopener">ClaudeNotebookEngine</a>
+            <a href="https://github.com/Baltimoreteacher1/ClaudeNotebookGeneratorEngine" target="_blank" rel="noopener">ClaudeNotebookGeneratorEngine</a>
+            <a href="https://github.com/Baltimoreteacher1/ChatgptNotebookENgine1" target="_blank" rel="noopener">ChatgptNotebookENgine1</a>
+            <a href="https://github.com/Baltimoreteacher1/student-notebooks-site" target="_blank" rel="noopener">Neft Hub Repo</a>
+          </div>
+        </article>
+
+        <article class="card" data-tags="lesson plan ready lp generator quiz warmup">
+          <h3>Lesson Plan / Ready Workflow</h3>
+          <p>Repos for Ready-date lesson plans, quizzes, warmups, and classroom generation.</p>
+          <div class="links">
+            <a href="https://github.com/Baltimoreteacher1/ClaudeLPGeneratorEngine" target="_blank" rel="noopener">ClaudeLPGeneratorEngine</a>
+            <a href="https://github.com/Baltimoreteacher1/Quiz-Warmup-Engine" target="_blank" rel="noopener">Quiz-Warmup-Engine</a>
+          </div>
+        </article>
+
+        <article class="card" data-tags="cloudflare pages deployment settings neft hub">
+          <h3>Cloudflare Deployment</h3>
+          <p>Use one Cloudflare Pages project for the whole hub.</p>
+          <div class="links">
+            <a href="https://dash.cloudflare.com" target="_blank" rel="noopener">Open Cloudflare Dashboard</a>
+            <a href="https://github.com/Baltimoreteacher1/student-notebooks-site/blob/main/README.md" target="_blank" rel="noopener">Cloudflare Build Settings</a>
+            <a href="https://github.com/Baltimoreteacher1/student-notebooks-site/blob/main/app-registry.json" target="_blank" rel="noopener">App Registry</a>
+          </div>
+        </article>
+
+        <article class="card" data-tags="rules naming system cleanup workflow">
+          <h3>Simple Workflow Rules</h3>
+          <p>Keep the system from getting messy again.</p>
+          <div class="links">
+            <a href="https://github.com/Baltimoreteacher1/student-notebooks-site" target="_blank" rel="noopener">Main Neft Hub Repo</a>
+            <a href="https://github.com/Baltimoreteacher1/eduwonderlab" target="_blank" rel="noopener">Workflow Notes Repo</a>
+          </div>
+        </article>
+      </section>
+
+      <h2>What Goes Where?</h2>
+      <table>
+        <thead><tr><th>Item</th><th>Where It Belongs</th><th>Rule</th></tr></thead>
+        <tbody>
+          <tr><td>Student/family apps</td><td>Neft Hub app library</td><td>Add them to <code>app-registry.json</code>.</td></tr>
+          <tr><td>GitHub/code navigation</td><td>Neft Hub Control Center</td><td>Keep links here so you do not hunt through repos.</td></tr>
+          <tr><td>Lesson-plan/notebook engines</td><td>GitHub repos linked from this page</td><td>Do not duplicate engines inside every app.</td></tr>
+          <tr><td>Cloudflare deployment</td><td>One Pages project</td><td>Use <code>student-notebooks-site</code> unless there is a strong reason not to.</td></tr>
+          <tr><td>Experimental apps</td><td>GitHub first, then Neft Hub when stable</td><td>Only add polished/stable apps to the main hub.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <script>
+    const input = document.getElementById('filter');
+    const cards = [...document.querySelectorAll('.card')];
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      cards.forEach(card => {
+        const text = (card.innerText + ' ' + card.dataset.tags).toLowerCase();
+        card.style.display = !q || text.includes(q) ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
