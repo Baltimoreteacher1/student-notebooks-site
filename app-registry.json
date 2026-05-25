@@ -33,7 +33,13 @@
       "groupOrder": 10,
       "audience": "Students",
       "description": "A cleaned-up unit-by-unit launch hub for Grade 6 math apps, with existing apps linked and missing unit slots clearly marked.",
-      "tags": ["Grade 6", "Units 1-10", "math", "MCAP", "review"]
+      "tags": [
+        "Grade 6",
+        "Units 1-10",
+        "math",
+        "MCAP",
+        "review"
+      ]
     },
     {
       "title": "Noam Hebrew Practice Hub",
@@ -44,7 +50,394 @@
       "groupOrder": 20,
       "audience": "Family / Student",
       "description": "The single organized home for Noam's Hebrew practice: Ki Teitzei trope and chanting, prayer reading with transliteration, Units 5.3–5.4 vocabulary, quiz practice, and study-guide review.",
-      "tags": ["Hebrew", "Noam", "Bar Mitzvah", "Ki Teitzei", "prayer", "reading", "transliteration", "trope", "vocabulary", "quiz", "review"]
+      "tags": [
+        "Hebrew",
+        "Noam",
+        "Bar Mitzvah",
+        "Ki Teitzei",
+        "prayer",
+        "reading",
+        "transliteration",
+        "trope",
+        "vocabulary",
+        "quiz",
+        "review"
+      ]
+    },
+    {
+      "title": "6.RP.1 Review Learn",
+      "slug": "6-rp-1-review-learn",
+      "repo": "Baltimoreteacher1/6.RP.1ReviewLearn",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Ratio reasoning review and learning support.",
+      "tags": [
+        "6.RP.1",
+        "ratios",
+        "review"
+      ]
+    },
+    {
+      "title": "6.RP.1 Game",
+      "slug": "6-rp-1-game",
+      "repo": "Baltimoreteacher1/6.RP.1Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Game-based practice for ratio language and ratio reasoning.",
+      "tags": [
+        "6.RP.1",
+        "ratios",
+        "game"
+      ]
+    },
+    {
+      "title": "6.RP.A.2 Interactive Study Guide",
+      "slug": "6-rp-a-2-interactive-study-guide",
+      "repo": "Baltimoreteacher1/6.RP.A.2-Interactive-Study-Guide",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Interactive study guide for unit rates and rate reasoning.",
+      "tags": [
+        "6.RP.A.2",
+        "unit rates",
+        "study guide"
+      ]
+    },
+    {
+      "title": "6.RP.A.2 Game",
+      "slug": "6-rp-a-2-game",
+      "repo": "Baltimoreteacher1/6.rp.a.2Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Game-based unit-rate and rate comparison practice.",
+      "tags": [
+        "6.RP.A.2",
+        "unit rates",
+        "game"
+      ]
+    },
+    {
+      "title": "6.RP.A.3 Study",
+      "slug": "6-rp-a-3-study",
+      "repo": "Baltimoreteacher1/6.RP.A.3Study",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Applied ratio and percent reasoning study practice.",
+      "tags": [
+        "6.RP.A.3",
+        "percent",
+        "ratio applications"
+      ]
+    },
+    {
+      "title": "6.RP.A.3 Game",
+      "slug": "6-rp-a-3-game",
+      "repo": "Baltimoreteacher1/6.rp.a.3game",
+      "category": "Math · Grade 6",
+      "group": "Unit 1 · Ratios and Unit Rates",
+      "groupOrder": 10,
+      "audience": "Students",
+      "description": "Game-based applied ratio reasoning practice.",
+      "tags": [
+        "6.RP.A.3",
+        "ratios",
+        "game"
+      ]
+    },
+    {
+      "title": "STEM Camp Fraction Division Quest",
+      "slug": "stem-camp-fraction-division-quest",
+      "repo": "Baltimoreteacher1/6.1Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 2 · Fractions and Division",
+      "groupOrder": 20,
+      "audience": "Students",
+      "description": "Fraction-division quest with stages, models, vocabulary, and mastery tracking.",
+      "tags": [
+        "6.NS.A.1",
+        "fraction division",
+        "models"
+      ]
+    },
+    {
+      "title": "6.NS.A.1 Game",
+      "slug": "6-ns-a-1-game",
+      "repo": "Baltimoreteacher1/6.NS.A.1Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 2 · Fractions and Division",
+      "groupOrder": 20,
+      "audience": "Students",
+      "description": "Game-based practice for dividing fractions and interpreting quotients.",
+      "tags": [
+        "6.NS.A.1",
+        "division",
+        "fractions"
+      ]
+    },
+    {
+      "title": "Neft Coordinate Game",
+      "slug": "neft-coordinate-game",
+      "repo": "Baltimoreteacher1/neft-coordinate-game",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Coordinate-plane practice for plotting, reading, and reasoning with points.",
+      "tags": [
+        "coordinate plane",
+        "6.NS.C",
+        "game"
+      ]
+    },
+    {
+      "title": "6.NS.C Study Practice",
+      "slug": "6-ns-c-study-practice",
+      "repo": "Baltimoreteacher1/6.NS.CStudyPractice",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Rational-number study and practice for the 6.NS.C cluster.",
+      "tags": [
+        "6.NS.C",
+        "rational numbers",
+        "practice"
+      ]
+    },
+    {
+      "title": "6.NS.C Integer Practice",
+      "slug": "6-ns-c-integer-practice",
+      "repo": "Baltimoreteacher1/6.NS.C",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Integer and rational-number practice for negative-number reasoning.",
+      "tags": [
+        "integers",
+        "rational numbers",
+        "6.NS.C"
+      ]
+    },
+    {
+      "title": "6.NS.C.5 Game",
+      "slug": "6-ns-c-5-game",
+      "repo": "Baltimoreteacher1/6.NS.C.5Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Game-based practice for positive and negative numbers in real-world contexts.",
+      "tags": [
+        "6.NS.C.5",
+        "negative numbers",
+        "game"
+      ]
+    },
+    {
+      "title": "6.NS.C.6 Game",
+      "slug": "6-ns-c-6-game",
+      "repo": "Baltimoreteacher1/6.NS.C.6Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Coordinate plane and rational-number game practice.",
+      "tags": [
+        "6.NS.C.6",
+        "coordinate plane",
+        "game"
+      ]
+    },
+    {
+      "title": "6.NS.C.8 Game",
+      "slug": "6-ns-c-8-game",
+      "repo": "Baltimoreteacher1/6.ns.c.8Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Distance and coordinate-plane problem practice.",
+      "tags": [
+        "6.NS.C.8",
+        "coordinate plane",
+        "distance"
+      ]
+    },
+    {
+      "title": "Integer Wizards Battle Arena",
+      "slug": "integer-wizards-battle-arena",
+      "repo": "Baltimoreteacher1/6.NS.C.3Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Integer operations battle game for rational-number fluency.",
+      "tags": [
+        "integers",
+        "operations",
+        "game"
+      ]
+    },
+    {
+      "title": "Integer Operations Review Suite",
+      "slug": "integer-operations-review-suite",
+      "repo": "Baltimoreteacher1/6.ns.c.3Review",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Interactive review suite for integer operations.",
+      "tags": [
+        "integers",
+        "operations",
+        "review"
+      ]
+    },
+    {
+      "title": "Integer & Coordinate Plane Arcade",
+      "slug": "integer-coordinate-plane-arcade",
+      "repo": "Baltimoreteacher1/6.NS.3Practice",
+      "category": "Math · Grade 6",
+      "group": "Unit 3 · Rational Numbers",
+      "groupOrder": 30,
+      "audience": "Students",
+      "description": "Arcade-style review for integers and coordinate-plane reasoning.",
+      "tags": [
+        "integers",
+        "coordinate plane",
+        "review"
+      ]
+    },
+    {
+      "title": "Math Unit 4 Interactive Study Studio",
+      "slug": "math-unit-4-study-studio",
+      "repo": "Baltimoreteacher1/Math6Unit4InteractiveStudyStudio",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Interactive study studio for Grade 6 Unit 4 review.",
+      "tags": [
+        "Unit 4",
+        "study",
+        "review"
+      ]
+    },
+    {
+      "title": "Decimal Operations Review",
+      "slug": "decimal-operations-review",
+      "repo": "Baltimoreteacher1/Decimaloperationsreview",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Interactive decimal operations review and practice.",
+      "tags": [
+        "decimals",
+        "operations",
+        "review"
+      ]
+    },
+    {
+      "title": "Long Division MCAP Review",
+      "slug": "long-division-mcap-review",
+      "repo": "Baltimoreteacher1/Longdivisionmcapreview",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Long division review built for MCAP-style preparation.",
+      "tags": [
+        "division",
+        "MCAP",
+        "review"
+      ]
+    },
+    {
+      "title": "6.NS.B.2 Game",
+      "slug": "6-ns-b-2-game",
+      "repo": "Baltimoreteacher1/6.NS.B.2Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Game-based multi-digit division practice.",
+      "tags": [
+        "6.NS.B.2",
+        "division",
+        "game"
+      ]
+    },
+    {
+      "title": "6.NS.B.2 Review Activities",
+      "slug": "6-ns-b-2-review-activities",
+      "repo": "Baltimoreteacher1/6.NS.B.2Reviewactivities",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Review activities for multi-digit division.",
+      "tags": [
+        "6.NS.B.2",
+        "division",
+        "review"
+      ]
+    },
+    {
+      "title": "6.NS.B.4 Review",
+      "slug": "6-ns-b-4-review",
+      "repo": "Baltimoreteacher1/6.NS.B.4Review",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Review for GCF, LCM, and number-system fluency.",
+      "tags": [
+        "6.NS.B.4",
+        "GCF",
+        "LCM"
+      ]
+    },
+    {
+      "title": "6.NS.B.4 Review 1",
+      "slug": "6-ns-b-4-review-1",
+      "repo": "Baltimoreteacher1/6.NS.B.4Review1",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Additional GCF/LCM review practice.",
+      "tags": [
+        "6.NS.B.4",
+        "factors",
+        "multiples"
+      ]
+    },
+    {
+      "title": "6.NS.B.4 Game",
+      "slug": "6-ns-b-4-game",
+      "repo": "Baltimoreteacher1/6.NS.B.4Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 4 · Number System Operations",
+      "groupOrder": 40,
+      "audience": "Students",
+      "description": "Game-based practice for GCF, LCM, factors, and multiples.",
+      "tags": [
+        "6.NS.B.4",
+        "game",
+        "number system"
+      ]
     },
     {
       "title": "Volume of Rectangular Prisms",
@@ -55,150 +448,732 @@
       "groupOrder": 50,
       "audience": "Students",
       "description": "Interactive volume practice for rectangular prisms with student-friendly visuals and practice routines.",
-      "tags": ["6.G", "volume", "rectangular prisms"]
+      "tags": [
+        "6.G",
+        "volume",
+        "rectangular prisms"
+      ]
+    },
+    {
+      "title": "Rectangular Prism Story",
+      "slug": "rectangular-prism-story",
+      "repo": "Baltimoreteacher1/RectangularPrismStory",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
+      "audience": "Students",
+      "description": "Story-based volume and rectangular-prism reasoning.",
+      "tags": [
+        "volume",
+        "rectangular prism",
+        "story"
+      ]
+    },
+    {
+      "title": "Rectangular Prism Story ESL",
+      "slug": "rectangular-prism-story-esl",
+      "repo": "Baltimoreteacher1/RectangularPrismStoryESL",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
+      "audience": "Students",
+      "description": "Language-supported rectangular-prism and volume practice.",
+      "tags": [
+        "ESOL",
+        "volume",
+        "rectangular prism"
+      ]
     },
     {
       "title": "Interactive Area Mission",
       "slug": "interactive-area-mission",
       "repo": "Baltimoreteacher1/InteractiveAreaMission",
-      "category": "Math · Area",
+      "category": "Math · Grade 6",
       "group": "Unit 5 · Geometry and Measurement",
       "groupOrder": 50,
       "audience": "Students",
       "description": "A visual area mission for polygons, formulas, and applied geometry practice.",
-      "tags": ["area", "geometry", "mission"]
+      "tags": [
+        "area",
+        "geometry",
+        "mission"
+      ]
     },
     {
       "title": "Grade 6 Area 5.1–5.2",
       "slug": "grade-6-area-5-1-5-2",
       "repo": "Baltimoreteacher1/Grade6Area5.1-2",
-      "category": "Math · Area",
+      "category": "Math · Grade 6",
       "group": "Unit 5 · Geometry and Measurement",
       "groupOrder": 50,
       "audience": "Students",
       "description": "Area lesson support and practice for Grade 6 Unit 5.1–5.2.",
-      "tags": ["area", "Grade 6", "5.1", "5.2"]
+      "tags": [
+        "area",
+        "Grade 6",
+        "5.1",
+        "5.2"
+      ]
     },
     {
       "title": "Grade 6 Area Language Support",
       "slug": "grade-6-area-language-support",
       "repo": "Baltimoreteacher1/Grade6Area5.1-2Language",
-      "category": "Math · ESOL Support",
+      "category": "Math · Grade 6",
       "group": "Unit 5 · Geometry and Measurement",
       "groupOrder": 50,
       "audience": "Students",
       "description": "Language-supported version of Grade 6 area practice for multilingual learners.",
-      "tags": ["ESOL", "area", "language supports"]
+      "tags": [
+        "ESOL",
+        "area",
+        "language supports"
+      ]
     },
     {
       "title": "Parallelogram and Rhombus Game",
       "slug": "parallelogram-rhombus-game",
       "repo": "Baltimoreteacher1/ParallelogramandRhombusGame",
-      "category": "Math · Area",
+      "category": "Math · Grade 6",
       "group": "Unit 5 · Geometry and Measurement",
       "groupOrder": 50,
       "audience": "Students",
       "description": "Interactive practice for parallelogram and rhombus area reasoning.",
-      "tags": ["parallelogram", "rhombus", "area"]
+      "tags": [
+        "parallelogram",
+        "rhombus",
+        "area"
+      ]
     },
     {
-      "title": "6.EE.C.9 Review Activities",
-      "slug": "6-ee-c-9-review-activities",
-      "repo": "Baltimoreteacher1/6.EE.C.9ReviewActivities",
-      "category": "Math · Expressions & Equations",
-      "group": "Expressions & Equations",
-      "groupOrder": 70,
+      "title": "Trapezoid Activity 5.3",
+      "slug": "trapezoid-activity-5-3",
+      "repo": "Baltimoreteacher1/5.3ENVTrapezoidActivity",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
       "audience": "Students",
-      "description": "Review activities for independent/dependent variables and equation relationships.",
-      "tags": ["6.EE.C.9", "variables", "relationships"]
+      "description": "Environmental-themed trapezoid area activity.",
+      "tags": [
+        "trapezoid",
+        "area",
+        "5.3"
+      ]
     },
     {
-      "title": "6.EE.C.9 Game",
-      "slug": "6-ee-c-9-game",
-      "repo": "Baltimoreteacher1/6.EE.C.9Game",
-      "category": "Math · Expressions & Equations",
-      "group": "Expressions & Equations",
-      "groupOrder": 70,
+      "title": "Trapezoid Review 5.3",
+      "slug": "trapezoid-review-5-3",
+      "repo": "Baltimoreteacher1/5.3RVTrapezoid",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
       "audience": "Students",
-      "description": "Game-based practice for 6.EE.C.9 function and relationship thinking.",
-      "tags": ["6.EE.C.9", "game", "functions"]
+      "description": "Review practice for trapezoid area reasoning.",
+      "tags": [
+        "trapezoid",
+        "area",
+        "review"
+      ]
     },
     {
-      "title": "Variable Explorer ESOL",
-      "slug": "variable-explorer-esol",
-      "repo": "Baltimoreteacher1/VariableExplorerESOL",
-      "category": "Math · ESOL Support",
-      "group": "Expressions & Equations",
-      "groupOrder": 70,
+      "title": "Area Practice 5.1–5.3",
+      "slug": "area-practice-5-1-5-3",
+      "repo": "Baltimoreteacher1/5.1-5.3Practice",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
       "audience": "Students",
-      "description": "ESOL-accessible variable exploration and relationship practice.",
-      "tags": ["ESOL", "variables", "6.EE.C.9"]
+      "description": "Practice set for area lessons 5.1 through 5.3.",
+      "tags": [
+        "area",
+        "5.1",
+        "5.3"
+      ]
     },
     {
-      "title": "Variable Explorer",
-      "slug": "variable-explorer",
-      "repo": "Baltimoreteacher1/VariableExplorer1",
-      "category": "Math · Expressions & Equations",
-      "group": "Expressions & Equations",
-      "groupOrder": 70,
+      "title": "Area Gemini 5.5",
+      "slug": "area-gemini-5-5",
+      "repo": "Baltimoreteacher1/5.5gemini",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
       "audience": "Students",
-      "description": "Interactive variable exploration for understanding input/output relationships.",
-      "tags": ["variables", "tables", "relationships"]
+      "description": "Unit 5.5 area support activity.",
+      "tags": [
+        "area",
+        "5.5",
+        "geometry"
+      ]
+    },
+    {
+      "title": "Square and Triangle Area 5.5",
+      "slug": "square-triangle-area-5-5",
+      "repo": "Baltimoreteacher1/5.5SquareTriangle",
+      "category": "Math · Grade 6",
+      "group": "Unit 5 · Geometry and Measurement",
+      "groupOrder": 50,
+      "audience": "Students",
+      "description": "Practice with square and triangle area reasoning.",
+      "tags": [
+        "area",
+        "triangles",
+        "squares"
+      ]
+    },
+    {
+      "title": "6.EE.B.6 Review",
+      "slug": "6-ee-b-6-review",
+      "repo": "Baltimoreteacher1/6.EE.B.6Review",
+      "category": "Math · Grade 6",
+      "group": "Unit 6 · Expressions",
+      "groupOrder": 60,
+      "audience": "Students",
+      "description": "Review for using variables to represent numbers and write expressions.",
+      "tags": [
+        "6.EE.B.6",
+        "variables",
+        "expressions"
+      ]
     },
     {
       "title": "Data Detective Game",
       "slug": "data-detective-game",
       "repo": "Baltimoreteacher1/6.SP.B.5_Data_Detective_Game.html",
-      "category": "Math · Statistics",
-      "group": "Statistics & Data",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
       "groupOrder": 80,
       "audience": "Students",
       "description": "Statistics practice through a data detective game format.",
-      "tags": ["statistics", "6.SP.B.5", "data"]
+      "tags": [
+        "statistics",
+        "6.SP.B.5",
+        "data"
+      ]
     },
     {
       "title": "6.SP.B.5 Interactive Review",
       "slug": "6-sp-b-5-interactive-review",
       "repo": "Baltimoreteacher1/6.SP.B.5_Interactive_Review.html",
-      "category": "Math · Statistics",
-      "group": "Statistics & Data",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
       "groupOrder": 80,
       "audience": "Students",
       "description": "Interactive review for summarizing and describing distributions.",
-      "tags": ["6.SP.B.5", "statistics", "review"]
+      "tags": [
+        "6.SP.B.5",
+        "statistics",
+        "review"
+      ]
     },
     {
-      "title": "Decimal Operations Review",
-      "slug": "decimal-operations-review",
-      "repo": "Baltimoreteacher1/Decimaloperationsreview",
-      "category": "Math · Number System",
-      "group": "Unit 4 · Decimal Operations",
-      "groupOrder": 40,
+      "title": "6.SP.A.1 Game",
+      "slug": "6-sp-a-1-game",
+      "repo": "Baltimoreteacher1/6.SP.A.1Game-",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
+      "groupOrder": 80,
       "audience": "Students",
-      "description": "Interactive decimal operations review and practice.",
-      "tags": ["decimals", "operations", "review"]
+      "description": "Game-based practice for recognizing statistical questions.",
+      "tags": [
+        "6.SP.A.1",
+        "statistical questions",
+        "game"
+      ]
     },
     {
-      "title": "Long Division MCAP Review",
-      "slug": "long-division-mcap-review",
-      "repo": "Baltimoreteacher1/Longdivisionmcapreview",
-      "category": "Math · Number System",
-      "group": "Unit 4 · Decimal Operations",
-      "groupOrder": 40,
+      "title": "6.SP.A.1 Review 2",
+      "slug": "6-sp-a-1-review-2",
+      "repo": "Baltimoreteacher1/6.sp.a.1Review2",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
+      "groupOrder": 80,
       "audience": "Students",
-      "description": "Long division review built for MCAP-style preparation.",
-      "tags": ["division", "MCAP", "review"]
+      "description": "Review for identifying and explaining statistical questions.",
+      "tags": [
+        "6.SP.A.1",
+        "statistics",
+        "review"
+      ]
     },
     {
-      "title": "Math Unit 4 Interactive Study Studio",
-      "slug": "math-unit-4-study-studio",
-      "repo": "Baltimoreteacher1/Math6Unit4InteractiveStudyStudio",
-      "category": "Math · Review Studio",
-      "group": "Unit 4 · Decimal Operations",
-      "groupOrder": 40,
+      "title": "6.SP.A.1 Data Lab",
+      "slug": "6-sp-a-1-data-lab",
+      "repo": "Baltimoreteacher1/6.SP.A.1Data-Lab-6.SP.A.1-Flagship",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
+      "groupOrder": 80,
       "audience": "Students",
-      "description": "Interactive study studio for Grade 6 Unit 4 review.",
-      "tags": ["Unit 4", "study", "review"]
+      "description": "Data lab for statistical-question reasoning and data investigations.",
+      "tags": [
+        "6.SP.A.1",
+        "data lab",
+        "statistics"
+      ]
+    },
+    {
+      "title": "Histogram Graphic Novel 2.2",
+      "slug": "histogram-graphic-novel-2-2",
+      "repo": "Baltimoreteacher1/2.2HistogramGraphicNovel",
+      "category": "Math · Grade 6",
+      "group": "Unit 8 · Statistics",
+      "groupOrder": 80,
+      "audience": "Students",
+      "description": "Graphic-novel style support for histogram interpretation.",
+      "tags": [
+        "histograms",
+        "statistics",
+        "visual learning"
+      ]
+    },
+    {
+      "title": "Unit 9.1 6.EE.9",
+      "slug": "unit-9-1-6-ee-9",
+      "repo": "Baltimoreteacher1/Unit-9.1-6.EE.9",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Unit 9.1 relationship and variable practice.",
+      "tags": [
+        "6.EE.9",
+        "Unit 9",
+        "relationships"
+      ]
+    },
+    {
+      "title": "Independent and Dependent Variables",
+      "slug": "independent-dependent-variables",
+      "repo": "Baltimoreteacher1/Ind.Dep.Varaibles",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Practice for identifying independent and dependent variables.",
+      "tags": [
+        "independent variables",
+        "dependent variables",
+        "6.EE.9"
+      ]
+    },
+    {
+      "title": "Cloudflare Pages Game for 6.EE.9",
+      "slug": "cloudflare-pages-game-6-ee-9",
+      "repo": "Baltimoreteacher1/Cloudflare-Pages-game-for-6.EE.9",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Cloudflare-hosted game for 6.EE.9 relationship thinking.",
+      "tags": [
+        "6.EE.9",
+        "game",
+        "relationships"
+      ]
+    },
+    {
+      "title": "Function Forge 6.EE.9",
+      "slug": "function-forge-6-ee-9",
+      "repo": "Baltimoreteacher1/Functionforge6.ee.9",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Function Forge practice for tables, rules, and relationships.",
+      "tags": [
+        "6.EE.9",
+        "functions",
+        "tables"
+      ]
+    },
+    {
+      "title": "6.EE.9 Practice",
+      "slug": "6-ee-9-practice",
+      "repo": "Baltimoreteacher1/6.EE.9",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Practice for equations, tables, and variable relationships.",
+      "tags": [
+        "6.EE.9",
+        "relationships",
+        "practice"
+      ]
+    },
+    {
+      "title": "6.EE.9 Notes Practice",
+      "slug": "6-ee-9-notes-practice",
+      "repo": "Baltimoreteacher1/6.EE.9NotesPracti-e",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Notes and practice for 6.EE.9 relationship reasoning.",
+      "tags": [
+        "6.EE.9",
+        "notes",
+        "practice"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Study",
+      "slug": "6-ee-c-9-study",
+      "repo": "Baltimoreteacher1/6.EE.C.9Study",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Study guide for independent/dependent variables and relationships.",
+      "tags": [
+        "6.EE.C.9",
+        "study",
+        "variables"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Game",
+      "slug": "6-ee-c-9-game",
+      "repo": "Baltimoreteacher1/6.EE.C.9Game",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Game-based practice for 6.EE.C.9 function and relationship thinking.",
+      "tags": [
+        "6.EE.C.9",
+        "game",
+        "functions"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Review Activities",
+      "slug": "6-ee-c-9-review-activities",
+      "repo": "Baltimoreteacher1/6.EE.C.9ReviewActivities",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Review activities for independent/dependent variables and equation relationships.",
+      "tags": [
+        "6.EE.C.9",
+        "variables",
+        "relationships"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Google Version",
+      "slug": "6-ee-c-9-google-version",
+      "repo": "Baltimoreteacher1/6.EE.C.9GoogleVersion",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Google-version relationship practice for 6.EE.C.9.",
+      "tags": [
+        "6.EE.C.9",
+        "Google",
+        "relationships"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Gifted/Talented Version",
+      "slug": "6-ee-c-9-gifted-talented-version",
+      "repo": "Baltimoreteacher1/6.EE.C.9GoogleVersionGifted.TalentedVersion",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Extended 6.EE.C.9 version for advanced relationship reasoning.",
+      "tags": [
+        "6.EE.C.9",
+        "extension",
+        "gifted"
+      ]
+    },
+    {
+      "title": "9.1–9.2 Study for Quiz",
+      "slug": "9-1-9-2-study-for-quiz",
+      "repo": "Baltimoreteacher1/9.1-9.2StudyforQuiz",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Study support for Unit 9.1–9.2 quiz readiness.",
+      "tags": [
+        "Unit 9",
+        "quiz",
+        "study"
+      ]
+    },
+    {
+      "title": "9.3 Review Practice",
+      "slug": "9-3-review-practice",
+      "repo": "Baltimoreteacher1/9.3REviewPractice",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Review practice for Unit 9.3.",
+      "tags": [
+        "Unit 9",
+        "review",
+        "practice"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Roblox Project",
+      "slug": "6-ee-c-9-roblox-project",
+      "repo": "Baltimoreteacher1/6.ee.c.9Projectroblox",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Roblox-themed project for variable relationships.",
+      "tags": [
+        "6.EE.C.9",
+        "project",
+        "Roblox"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Pizza",
+      "slug": "6-ee-c-9-pizza",
+      "repo": "Baltimoreteacher1/6.ee.c.9Pizza",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Pizza-themed relationship and variable practice.",
+      "tags": [
+        "6.EE.C.9",
+        "pizza",
+        "relationships"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Shoes",
+      "slug": "6-ee-c-9-shoes",
+      "repo": "Baltimoreteacher1/6.ee.c.9shoes",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Shoe-themed relationship and variable practice.",
+      "tags": [
+        "6.EE.C.9",
+        "variables",
+        "relationships"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Martian Game",
+      "slug": "6-ee-c-9-martian-game",
+      "repo": "Baltimoreteacher1/6.ee.c.9MartianGame",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Martian-themed game for variable relationship reasoning.",
+      "tags": [
+        "6.EE.C.9",
+        "game",
+        "relationships"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Variable Velocity Game",
+      "slug": "6-ee-c-9-variable-velocity-game",
+      "repo": "Baltimoreteacher1/6.ee.c.9VariableVelocityGame",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Velocity-themed variable relationship game.",
+      "tags": [
+        "6.EE.C.9",
+        "variables",
+        "velocity"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 After Test",
+      "slug": "6-ee-c-9-after-test",
+      "repo": "Baltimoreteacher1/6.ee.c.9aftertest",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Post-test practice for 6.EE.C.9.",
+      "tags": [
+        "6.EE.C.9",
+        "after test",
+        "review"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 After Test 2",
+      "slug": "6-ee-c-9-after-test-2",
+      "repo": "Baltimoreteacher1/6eec9aftertest2",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Additional post-test practice for 6.EE.C.9.",
+      "tags": [
+        "6.EE.C.9",
+        "after test",
+        "practice"
+      ]
+    },
+    {
+      "title": "6.EE.C.9 Test Project",
+      "slug": "6-ee-c-9-test-project",
+      "repo": "Baltimoreteacher1/6eec9testproject",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Project-style practice for 6.EE.C.9.",
+      "tags": [
+        "6.EE.C.9",
+        "project",
+        "test review"
+      ]
+    },
+    {
+      "title": "Variable Explorer",
+      "slug": "variable-explorer",
+      "repo": "Baltimoreteacher1/VariableExplorer1",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Interactive variable exploration for understanding input/output relationships.",
+      "tags": [
+        "variables",
+        "tables",
+        "relationships"
+      ]
+    },
+    {
+      "title": "Variable Explorer ESOL",
+      "slug": "variable-explorer-esol",
+      "repo": "Baltimoreteacher1/VariableExplorerESOL",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "ESOL-accessible variable exploration and relationship practice.",
+      "tags": [
+        "ESOL",
+        "variables",
+        "6.EE.C.9"
+      ]
+    },
+    {
+      "title": "Variable Chart Practice",
+      "slug": "variable-chart-practice",
+      "repo": "Baltimoreteacher1/VariableChartPractice",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Practice connecting variables, charts, and relationships.",
+      "tags": [
+        "variables",
+        "charts",
+        "relationships"
+      ]
+    },
+    {
+      "title": "Variable Comparison Game",
+      "slug": "variable-comparison-game",
+      "repo": "Baltimoreteacher1/Variablecomparisongame",
+      "category": "Math · Grade 6",
+      "group": "Unit 9 · Variables and Relationships",
+      "groupOrder": 90,
+      "audience": "Students",
+      "description": "Game-based practice comparing variable relationships.",
+      "tags": [
+        "variables",
+        "comparison",
+        "game"
+      ]
+    },
+    {
+      "title": "Quiz Warmup Engine",
+      "slug": "quiz-warmup-engine",
+      "repo": "Baltimoreteacher1/Quiz-Warmup-Engine",
+      "category": "Math · Grade 6",
+      "group": "Unit 10 · End-of-Year Review",
+      "groupOrder": 100,
+      "audience": "Students",
+      "description": "Reusable warmup and quiz engine for spiral review.",
+      "tags": [
+        "warmup",
+        "quiz",
+        "review"
+      ]
+    },
+    {
+      "title": "Math Talk Oracle",
+      "slug": "math-talk-oracle",
+      "repo": "Baltimoreteacher1/mathtalk-oracle",
+      "category": "Math · Grade 6",
+      "group": "Unit 10 · End-of-Year Review",
+      "groupOrder": 100,
+      "audience": "Students",
+      "description": "Math discussion and explanation support tool.",
+      "tags": [
+        "math talk",
+        "explanations",
+        "review"
+      ]
+    },
+    {
+      "title": "Math Tutor",
+      "slug": "math-tutor",
+      "repo": "Baltimoreteacher1/math-tutor",
+      "category": "Math · Grade 6",
+      "group": "Unit 10 · End-of-Year Review",
+      "groupOrder": 100,
+      "audience": "Students",
+      "description": "Student-facing math tutoring and practice support.",
+      "tags": [
+        "tutor",
+        "practice",
+        "review"
+      ]
+    },
+    {
+      "title": "Math Writing Help",
+      "slug": "math-writing-help",
+      "repo": "Baltimoreteacher1/Math-Writing-Help",
+      "category": "Math · Grade 6",
+      "group": "Unit 10 · End-of-Year Review",
+      "groupOrder": 100,
+      "audience": "Students",
+      "description": "Support for writing clear mathematical explanations.",
+      "tags": [
+        "math writing",
+        "explanations",
+        "support"
+      ]
+    },
+    {
+      "title": "Math Writing",
+      "slug": "math-writing",
+      "repo": "Baltimoreteacher1/Math-Writing",
+      "category": "Math · Grade 6",
+      "group": "Unit 10 · End-of-Year Review",
+      "groupOrder": 100,
+      "audience": "Students",
+      "description": "Practice tool for mathematical writing and reasoning.",
+      "tags": [
+        "math writing",
+        "reasoning",
+        "review"
+      ]
     }
   ]
 }
