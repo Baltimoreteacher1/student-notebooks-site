@@ -5,7 +5,7 @@
   "description": "One Cloudflare Pages hub for Neft Teacher apps, GitHub navigation, classroom tools, and family learning resources.",
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-cloudflare-hub.mjs",
+    "build": "node scripts/build-cloudflare-hub.mjs && node scripts/post-build-crusades.mjs",
     "check": "node scripts/build-cloudflare-hub.mjs --check",
     "preview": "npx wrangler pages dev dist"
   },
